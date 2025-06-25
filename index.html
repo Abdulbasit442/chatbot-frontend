@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskAlex Chat-Box</title>
+    <link rel="shotcut icon" href="image/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  class="body">
+    <aside class="aside">
+        <div id="split-icon"></div>
+    </aside>
+    <div class="history">
+        <aside id="aside">
+            <div class="top-container">
+                <img class="logo" src="image/logo.png" alt="image icon">
+             <div class="split-icon" onclick="closeAside()"></div>
+            </div>
+            <div class="first">
+                <p style="opacity: 0.5; text-align: center;">AskAlex</p>
+                <p><a href="about.html">About</a></p>
+                <p><a href="contact.html">Contact</a></p>
+                <p><a href="FAQs.html">FAQs</a></p>
+                <p><a href="privacy.html">Privacy Policy</a></p>
+                <p><a href="terms.html">Terms</a></p>
+            </div>
+            <p style="opacity: 0.5; text-align: center;">History</p>
+        </aside>
+    </div>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h3>AskAlex</h3>
+        </header>
+        <main class="chat-body" id="chatbody">
+        <!-- <div id="reply-container">...</div> -->
+        </main>
+        <footer class="chat-footer">
+            <input type="text" id="chatinput" placeholder="Type a message..!">
+            <button id="sendbtn"><span style="transform: rotate(-90deg); display: inline-block; font-size: 130%;">&#10148;</span></button>
+        </footer>
+        <footer class="about">
+            <p>© 2025 AskAlex Chat-Box. All Rights Reserved.</p>
+            <p>Hand to Hand with @M-TECH COMPUTER COLLEGE</p>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
